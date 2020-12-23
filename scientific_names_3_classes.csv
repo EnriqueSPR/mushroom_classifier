@@ -1,0 +1,865 @@
+,name,three_classes
+0,Abortiporus biennis,no_value
+1,Adelphella babingtonii,no_value
+2,Agaricus arvensis,edible
+3,Agaricus campestris,edible
+4,Agaricus litoralis,edible
+5,Agaricus sylvaticus,edible
+6,Agaricus sylvicola,edible
+7,Agaricus urinascens,edible
+8,Agaricus xanthodermus,toxic
+9,Agrocybe praecox,no_value
+10,Alboleptonia sericella,no_value
+11,Aleuria aurantia,edible
+12,Amanita battarrae,edible
+13,Amanita caesarea,edible
+14,Amanita ceciliae,edible
+15,Amanita citrina,toxic
+16,Amanita citrina var. alba,toxic
+17,Amanita crocea,edible
+18,Amanita curtipes,edible
+19,Amanita excelsa,edible
+20,Amanita franchetii,toxic
+21,Amanita fulva,edible
+22,Amanita gemmata,toxic
+23,Amanita muscaria,toxic
+24,Amanita muscaria var. aureola,toxic
+25,Amanita ovoidea,edible
+26,Amanita pantherina,toxic
+27,Amanita phalloides,toxic
+28,Amanita ponderosa,edible
+29,Amanita porphyria,no_value
+30,Amanita regalis,toxic
+31,Amanita rubescens,edible
+32,Amanita strobiliformis,edible
+33,Amanita torrendii,no_value
+34,Amanita vaginata,edible
+35,Amanita verna,toxic
+36,Amanita virosa,toxic
+37,Amanita vittadinii,edible
+38,Ampulloclitocybe clavipes,no_value
+39,Arachnopeziza aurelia,no_value
+40,Arcyria denudata,no_value
+41,Armillaria mellea,edible
+42,Armillaria tabescens,edible
+43,Arrhenia onisca,no_value
+44,Arrhenia spathulata,no_value
+45,Ascocoryne cylichnium,no_value
+46,Ascocoryne sarcoides,no_value
+47,Ascotremella faginea,no_value
+48,Asterophora lycoperdoides,toxic
+49,Asterophora parasitica,toxic
+50,Astraeus hygrometricus,toxic
+51,Auricularia auricula-judae,edible
+52,Auriscalpium vulgare,no_value
+53,Baeospora myosura,no_value
+54,Bolbitius titubans,no_value
+55,Boletopsis leucomelaena,toxic
+56,Boletus aereus,edible
+57,Boletus edulis,edible
+58,Boletus erythropus,edible
+59,Boletus ferrugineus,edible
+60,Boletus pinophilus,edible
+61,Boletus reticulatus,edible
+62,Boletus subtomentosus,edible
+63,Bovista plumbea,no_value
+64,Bulgaria inquinans,no_value
+65,Butyriboletus appendiculatus,edible
+66,Butyriboletus pseudoregius,edible
+67,Butyriboletus regius,edible
+68,Caloboletus calopus,toxic
+69,Caloboletus radicans,toxic
+70,Calocera cornea,no_value
+71,Calocera viscosa,no_value
+72,Calocybe gambosa,edible
+73,Calvatia gigantea,edible
+74,Cantharellus cibarius,edible
+75,Cantharellus cinereus,edible
+76,Cantharellus lutescens f. schizocroica,edible
+77,Cantharellus melanoxeros,edible
+78,Cantharellus subpruinosus,edible
+79,Ceratiomyxa fruticulosa,no_value
+80,Ceratiomyxa porioides,no_value
+81,Cerioporus corylinus,edible
+82,Cerioporus rhizophilus,no_value
+83,Cerioporus squamosus,edible
+84,Chalciporus piperatus,toxic
+85,Cheilymenia stercorea,no_value
+86,Chlorociboria aeruginascens,no_value
+87,Chlorophyllum molybdites,toxic
+88,Chlorophyllum rachodes,edible
+89,Choiromyces meandriformis,toxic
+90,Chromosera viola,no_value
+91,Chroogomphus helveticus,no_value
+92,Chroogomphus rutilus,edible
+93,Ciboria amentacea,no_value
+94,Ciboria batschiana,no_value
+95,Clathrus archeri,toxic
+96,Clathrus ruber,toxic
+97,Clavaria acuta,no_value
+98,Clavaria fragilis,no_value
+99,Clavaria fumosa,no_value
+100,Clavaria zollingeri,no_value
+101,Clavariadelphus pistillaris,no_value
+102,Clavariadelphus truncatus,edible
+103,Claviceps purpurea,toxic
+104,Clavulinopsis corniculata,no_value
+105,Clavulinopsis fusiformis,no_value
+106,Clavulinopsis helvola,no_value
+107,Clavulinopsis luteoalba,no_value
+108,Clitocella popinalis,toxic
+109,Clitocybe alexandri,edible
+110,Clitocybe candida,edible
+111,Clitocybe costata,no_value
+112,Clitocybe gibba,no_value
+113,Clitocybe nebularis,edible
+114,Clitocybe odora,no_value
+115,Clitocybe phyllophila,toxic
+116,Clitocybe rivulosa,toxic
+117,Clitopilus prunulus,edible
+118,Collybia cirrhata,no_value
+119,Collybia cookei,no_value
+120,Collybia tuberosa,no_value
+121,Comatricha nigra,no_value
+122,Conocybe apala,no_value
+123,Conocybe arrhenii,no_value
+124,Conocybe brunnea,no_value
+125,Conocybe filaris,toxic
+126,Conocybe mairei,no_value
+127,Conocybe ovalis,no_value
+128,Conocybe tenera,toxic
+129,Conocybe teneroides,no_value
+130,Conocybe vestita,no_value
+131,Coprinellus micaceus,no_value
+132,Coprinopsis atramentaria,toxic
+133,Coprinopsis ephemeroides,no_value
+134,Coprinopsis erythrocephala,no_value
+135,Coprinopsis lotinae,no_value
+136,Coprinus comatus,edible
+137,Cordyceps militaris,no_value
+138,Cortinarius bolaris,no_value
+139,Cortinarius cupreorufus,no_value
+140,Cortinarius impolitus,no_value
+141,Cortinarius inexspectatus,no_value
+142,Cortinarius mucosus,no_value
+143,Cortinarius praestans,edible
+144,Cortinarius triformis,no_value
+145,Cortinarius tubarius,no_value
+146,Cortinarius vernus,toxic
+147,Cortinarius violaceus,no_value
+148,Coryne dubia,no_value
+149,Craterellus cornucopioides,edible
+150,Craterellus lutescens,edible
+151,Craterellus tubaeformis,edible
+152,Crepidotus autochthonus,no_value
+153,Crepidotus crocophyllus,no_value
+154,Crepidotus variabilis,no_value
+155,Crinipellis scabella,no_value
+156,Crucibulum laeve,no_value
+157,Cuphophyllus flavipes,edible
+158,Cuphophyllus pratensis,edible
+159,Cuphophyllus virgineus,edible
+160,Cyathus olla,no_value
+161,Cyathus stercoreus,no_value
+162,Cyathus striatus,no_value
+163,Cyclocybe aegerita,edible
+164,Cystoderma amianthinum,no_value
+165,Cystoderma carcharias,no_value
+166,Cystoderma fallax,no_value
+167,Cystodermella ambrosii,no_value
+168,Cystodermella cinnabarina,no_value
+169,Cystodermella granulosa,no_value
+170,Dacrymyces stillatus,no_value
+171,Dactylosporina kuehneri,no_value
+172,Daedalea quercina,toxic
+173,Daldinia concentrica,toxic
+174,Dasyscyphella nivea,no_value
+175,Delicatula integrella,no_value
+176,Dermoloma cuneifolium,toxic
+177,Dichomitus campestris,toxic
+178,Discina ancilis,no_value
+179,Disciotis venosa,edible
+180,Elaphomyces granulatus,no_value
+181,Entoloma aprile,edible
+182,Entoloma cetratum,no_value
+183,Entoloma clypeatum,edible
+184,Entoloma conferendum,toxic
+185,Entoloma hirtipes,toxic
+186,Entoloma opacum,no_value
+187,Entoloma porphyrophaeum,no_value
+188,Entoloma sinuatum,toxic
+189,Fistulina hepatica,edible
+190,Fomes fomentarius,toxic
+191,Fomitopsis betulina,toxic
+192,Fomitopsis pinicola,toxic
+193,Fuligo cinerea,no_value
+194,Fuligo septica,no_value
+195,Fuscoporia contigua,toxic
+196,Galerina clavata,no_value
+197,Galerina marginata,toxic
+198,Galerina terrestris,no_value
+199,Ganoderma applanatum,toxic
+200,Ganoderma lucidum,toxic
+201,Gautieria graveolens,no_value
+202,Geoglossum glabrum,no_value
+203,Geopora sumneriana,no_value
+204,Gliophorus psittacinus,no_value
+205,Glutinoglossum glutinosum,no_value
+206,Gomphidius maculatus,no_value
+207,Gomphidius roseus,no_value
+208,Guepinia helvelloides,edible
+209,Guepiniopsis buccina,no_value
+210,Gymnopilus junonius,toxic
+211,Gymnopilus penetrans,no_value
+212,Gymnopus androsaceus,no_value
+213,Gymnopus brassicolens,toxic
+214,Gymnopus confluens,edible
+215,Gymnopus dryophilus,edible
+216,Gymnopus fusipes,no_value
+217,Gyrodon lividus,edible
+218,Gyromitra esculenta,toxic
+219,Gyromitra gigas,toxic
+220,Gyromitra infula,toxic
+221,Gyroporus castaneus,edible
+222,Hebeloma birrus,no_value
+223,Hebeloma mesophaeum,toxic
+224,Hebeloma radicosum,no_value
+225,Hebeloma sinapizans,toxic
+226,Helvella acetabulum,edible
+227,Helvella atra,no_value
+228,Helvella crispa,edible
+229,Helvella dissingii,no_value
+230,Helvella elastica,edible
+231,Helvella fusca,edible
+232,Helvella lacunosa,edible
+233,Helvella leucomelaena,edible
+234,Helvella leucopus,edible
+235,Helvella macropus,no_value
+236,Helvella sulcata,edible
+237,Hemimycena cucullata,no_value
+238,Hemimycena lactea,no_value
+239,Hemitrichia serpula,no_value
+240,Hericium cirrhatum,no_value
+241,Hericium coralloides,edible
+242,Hericium erinaceus,edible
+243,Heterobasidion annosum,toxic
+244,Hohenbuehelia petaloides,edible
+245,Hortiboletus rubellus,no_value
+246,Humidicutis calyptriformis,no_value
+247,Hydnellum ferrugineum,toxic
+248,Hydnocystis bombycina,toxic
+249,Hydnum repandum,edible
+250,Hydnum rufescens,edible
+251,Hygrocybe chlorophana,no_value
+252,Hygrocybe coccinea,no_value
+253,Hygrocybe conica,no_value
+254,Hygrocybe conicoides,no_value
+255,Hygrophoropsis aurantiaca,no_value
+256,Hygrophorus agathosmus,edible
+257,Hygrophorus gliocyclus,edible
+258,Hygrophorus latitabundus,edible
+259,Hygrophorus marzuolus,edible
+260,Hygrophorus marzuolus var. alba,edible
+261,Hygrophorus nemoreus,edible
+262,Hygrophorus persoonii,edible
+263,Hygrophorus roseodiscoideus,edible
+264,Hygrophorus russula,edible
+265,Hymenoscyphus fructigenus,no_value
+266,Hymenoscyphus immutabilis,no_value
+267,Hymenoscyphus monticola,no_value
+268,Hymenostilbe muscaria,no_value
+269,Hypholoma capnoides,no_value
+270,Hypholoma fasciculare,toxic
+271,Hypholoma lateritium,toxic
+272,Hypsizygus ulmarius,edible
+273,Imleria badia,edible
+274,Imperator luteocupreus,no_value
+275,Imperator rhodopurpureus,toxic
+276,Imperator torosus,toxic
+277,Infundibulicybe geotropa,edible
+278,Inocybe geophylla,toxic
+279,Inocybe lacera,toxic
+280,Inonotus hispidus,toxic
+281,Kretzschmaria deusta,toxic
+282,Laccaria amethystina,edible
+283,Laccaria bicolor,edible
+284,Laccaria laccata,edible
+285,Lachnellula subtilissima,no_value
+286,Lachnum virgineum,no_value
+287,Lacrymaria lacrymabunda,edible
+288,Lactarius blennius,toxic
+289,Lactarius chrysorrheus,toxic
+290,Lactarius controversus,toxic
+291,Lactarius deliciosus,edible
+292,Lactarius hemicyaneus,edible
+293,Lactarius indigo,edible
+294,Lactarius lilacinus,toxic
+295,Lactarius pergamenus,toxic
+296,Lactarius piperatus,toxic
+297,Lactarius pubescens,toxic
+298,Lactarius quieticolor,edible
+299,Lactarius sanguifluus,edible
+300,Lactarius semisanguifluus,edible
+301,Lactarius torminosus,toxic
+302,Lactarius turpis,toxic
+303,Lactarius violascens,no_value
+304,Lactarius volemus,edible
+305,Laetiporus sulphureus,no_value
+306,Lanmaoa fragrans,edible
+307,Leccinellum crocipodium,edible
+308,Leccinellum lepidum,edible
+309,Leccinum aurantiacum,edible
+310,Lentinellus cochleatus,no_value
+311,Lentinula edodes,edible
+312,Lentinus tigrinus,no_value
+313,Leocarpus fragilis,toxic
+314,Leotia lubrica,no_value
+315,Lepiota brunneoincarnata,toxic
+316,Lepiota castanea,toxic
+317,Lepiota erminea,no_value
+318,Lepista nuda,edible
+319,Lepista panaeolus,edible
+320,Lepista personata,edible
+321,Leucoagaricus leucothites,edible
+322,Leucocoprinus badhamii,toxic
+323,Leucocortinarius bulbiger,edible
+324,Leucopaxillus gentianeus,toxic
+325,Leucopaxillus lepistoides,edible
+326,Leucopaxillus paradoxus,no_value
+327,Limacella illinita,no_value
+328,Loweomyces fractipes,toxic
+329,Lycogala epidendrum,no_value
+330,Lycoperdon echinatum,no_value
+331,Lycoperdon perlatum,no_value
+332,Lycoperdon utriforme,no_value
+333,Lyophyllum decastes,edible
+334,Lyophyllum fumosum,edible
+335,Lysurus periphragmoides,toxic
+336,Macrocystidia cucumis,no_value
+337,Macrolepiota mastoidea,edible
+338,Macrolepiota procera,edible
+339,Macrotyphula juncea,no_value
+340,Marasmiellus candidus,no_value
+341,Marasmiellus maas-geesterani,no_value
+342,Marasmiellus vaillantii,no_value
+343,Marasmius collinus,toxic
+344,Marasmius graminum,no_value
+345,Marasmius oreades,edible
+346,Marasmius rotula,no_value
+347,Megacollybia platyphylla,no_value
+348,Meripilus giganteus,toxic
+349,Metatrichia vesparium,no_value
+350,Microglossum cyanobasis,no_value
+351,Microglossum nudipes,no_value
+352,Microglossum olivaceum,no_value
+353,Mitrophora semilibera,edible
+354,Mitrula paludosa,no_value
+355,Morchella conica,edible
+356,Morchella costata,edible
+357,Morchella elata,edible
+358,Morchella esculenta,edible
+359,Morchella hortensis,edible
+360,Mutinus caninus,toxic
+361,Mycena acicula,no_value
+362,Mycena corynephora,no_value
+363,Mycena pura,toxic
+364,Mycena seynii,no_value
+365,Mycena tenerrima,no_value
+366,Naucoria scolecina,no_value
+367,Neoboletus junquilleus,toxic
+368,Neobulgaria pura,no_value
+369,Omphalotus olearius,toxic
+370,Onygena equina,no_value
+371,Orbilia delicatula,no_value
+372,Panaeolus fimicola,toxic
+373,Panaeolus semiovatus,toxic
+374,Paralepista flaccida,edible
+375,Parasola conopilus,no_value
+376,Paxillus involutus,toxic
+377,Paxillus rubicundulus,toxic
+378,Paxina queletii,no_value
+379,Peroneutypa scoparia,toxic
+380,Peziza arvernensis,no_value
+381,Peziza badia,no_value
+382,Peziza varia,no_value
+383,Peziza vesiculosa,no_value
+384,Phaeolus schweinitzii,toxic
+385,Phallus impudicus,toxic
+386,Phellinus pomaceus,toxic
+387,Pholiota gummosa,no_value
+388,Phylloporus rhodoxanthus,no_value
+389,Pilobolus kleinii,no_value
+390,Pisolithus arhizus,edible
+391,Plectania melastoma,no_value
+392,Pleurotus citrinopileatus,edible
+393,Pleurotus dryinus,edible
+394,Pleurotus eryngii,edible
+395,Pleurotus nebrodensis,edible
+396,Pleurotus ostreatus,edible
+397,Plicaturopsis crispa,no_value
+398,Pluteus cervinus,edible
+399,Pluteus nanus,no_value
+400,Polyporus brumalis,toxic
+401,Polyporus tuberaster,no_value
+402,Polyporus umbellatus,edible
+403,Postia stiptica,toxic
+404,Protostropharia semiglobata,no_value
+405,Psathyrella candolleana,no_value
+406,Psathyrella corrugis,no_value
+407,Psathyrella spadiceogrisea,no_value
+408,Pseudoboletus parasiticus,no_value
+409,Pseudoclitocybe cyathiformis,no_value
+410,Pseudoclitopilus rhodoleucus,toxic
+411,Pseudocraterellus undulatus,edible
+412,Psilocybe coprophila,toxic
+413,Psilocybe semilanceata,toxic
+414,Pycnoporus cinnabarinus,toxic
+415,Pyrenopeziza benesuada,no_value
+416,Ramaria cedretorum,no_value
+417,Ramaria fennica,no_value
+418,Ramaria fumigata,no_value
+419,Resupinatus applicatus,no_value
+420,Reticularia lycoperdon,no_value
+421,Rheubarbariboletus armeniacus,no_value
+422,Rhizopogon roseolus,no_value
+423,Rhodocollybia butyracea,no_value
+424,Rhodocollybia maculata,no_value
+425,Rhodocybe gemina,edible
+426,Rickenella fibula,no_value
+427,Rickenella swartzii,no_value
+428,Rimbachia neckerae,no_value
+429,Rubroboletus lupinus,no_value
+430,Russula amoena,no_value
+431,Russula amoenolens,toxic
+432,Russula aurea,edible
+433,Russula caerulea,no_value
+434,Russula chloroides,no_value
+435,Russula cyanoxantha,edible
+436,Russula heterophylla,edible
+437,Russula ionochlora,toxic
+438,Russula nigricans,no_value
+439,Russula nobilis,toxic
+440,Russula ochroleuca,toxic
+441,Russula olivacea,edible
+442,Russula parazurea,edible
+443,Russula puellula,no_value
+444,Russula risigallina,no_value
+445,Russula rosea,no_value
+446,Russula sanguinea,no_value
+447,Russula sardonia,toxic
+448,Russula solaris,toxic
+449,Russula torulosa,toxic
+450,Russula vesca,edible
+451,Russula violeipes,no_value
+452,Russula virescens,edible
+453,Sarcoscypha coccinea,no_value
+454,Sarcosphaera coronaria,toxic
+455,Schizophyllum commune,no_value
+456,Scleroderma areolatum,no_value
+457,Scleroderma citrinum,toxic
+458,Scutellinia scutellata,no_value
+459,Scutellinia trechispora,no_value
+460,Scutiger pes-caprae,edible
+461,Simocybe centunculus,no_value
+462,Sowerbyella imperialis,no_value
+463,Sparassis crispa,edible
+464,Sparassis laminosa,edible
+465,Stemonitis fusca,no_value
+466,Stereum hirsutum,toxic
+467,Stereum insignitum,toxic
+468,Strobilomyces strobilaceus,toxic
+469,Strobilurus esculentus,edible
+470,Strobilurus esculentus var. griseus,edible
+471,Strobilurus stephanocystis,edible
+472,Strobilurus tenacellus,no_value
+473,Stropharia inuncta,no_value
+474,Stropharia rugosoannulata,edible
+475,Stropholoma aurantiacum,no_value
+476,Suillellus dupainii,edible
+477,Suillellus luridus,edible
+478,Suillellus queletii,edible
+479,Suillellus rhodoxanthus,toxic
+480,Suillellus satanas,toxic
+481,Suillus bellinii,edible
+482,Suillus bovinus,no_value
+483,Suillus collinitus,edible
+484,Suillus granulatus,edible
+485,Suillus grevillei,edible
+486,Suillus luteus,edible
+487,Tarzetta catinus,no_value
+488,Tarzetta cupularis,no_value
+489,Tectella patellaris,toxic
+490,Terfezia claveryi,edible
+491,Terfezia leptoderma,edible
+492,Terfezia magnusii,edible
+493,Tirmania nivea,edible
+494,Tolypocladium capitatum,no_value
+495,Tolypocladium ophioglossoides,no_value
+496,Trametes gibbosa,toxic
+497,Trametes hirsuta,toxic
+498,Trametes versicolor,toxic
+499,Tremella foliacea,no_value
+500,Tremella mesenterica,no_value
+501,Trichia decipiens,no_value
+502,Trichoderma pulvinatum,no_value
+503,Trichoglossum hirsutum,no_value
+504,Tricholoma columbetta,edible
+505,Tricholoma equestre,toxic
+506,Tricholoma fulvum,no_value
+507,Tricholoma portentosum,edible
+508,Tricholoma sciodes,toxic
+509,Tricholoma sejunctum,no_value
+510,Tricholoma terreum,edible
+511,Tricholoma ustale,no_value
+512,Tricholomella constricta,edible
+513,Tricholomopsis rutilans,no_value
+514,Tricholosporum goniospermum,edible
+515,Tubaria cistophila,no_value
+516,Tubaria conspersa,no_value
+517,Tubaria furfuracea,no_value
+518,Tubaria romagnesiana,no_value
+519,Tuber aestivum,edible
+520,Tuber borchii,edible
+521,Tuber brumale,edible
+522,Tuber excavatum,toxic
+523,Tuber fulgens,toxic
+524,Tuber melanosporum,edible
+525,Tuber mesentericum,edible
+526,Tubifera ferruginosa,no_value
+527,Tulostoma brumale,no_value
+528,Tulostoma fimbriatum,no_value
+529,Tylopilus felleus,toxic
+530,Typhrasa gossypina,no_value
+531,Typhula contorta,no_value
+532,Typhula fistulosa,no_value
+533,Verpa bohemica,edible
+534,Verpa digitaliformis,edible
+535,Volvopluteus gloiocephalus,no_value
+536,Xerocomellus chrysenteron,edible
+537,Xylaria carpophila,no_value
+538,Xylaria hypoxylon,no_value
+539,Xylaria longipes,no_value
+540,Agaricus augustus,edible
+541,Agaricus bitorquis,edible
+542,Agaricus bohusii,edible
+543,Agaricus langei,edible
+544,Agaricus moelleri,toxic
+545,Agaricus silvaticus,edible
+546,Agaricus silvicola,edible
+547,Amanita citrina var alba,no_value
+548,Amanita citrina var citrina,no_value
+549,Amanita Phalliodes,toxic
+550,Boletus / Butyriboletus appendiculatus,edible
+551,Boletus / Caloboletus calopus,no_value
+552,Boletus / Caloboletus radicans,no_value
+553,Boletus / Chalciporus piperatus,edible
+554,Boletus / Gyroporus castaneus,edible
+555,Boletus / Hortiboletus bubalinus,edible
+556,Boletus / Hortiboletus Rubellus,edible
+557,Boletus / Imleria badia,edible
+558,Boletus / Leccinum aurantiacum,edible
+559,Boletus / Leccinum scabrum,edible
+560,Boletus / Leccinum versipellis,edible
+561,Boletus / Neoboletus praestigiator,edible
+562,Boletus / Suillellus Luridus,edible
+563,Boletus / Suillus bovinus,edible
+564,Boletus / Suillus grevillei,edible
+565,Boletus / Suillus luteus,edible
+566,Boletus / Tylopilus felleus,no_value
+567,Boletus / Xerocomellus chrysenteron,edible
+568,Cantherellus tubaeformis,edible
+569,Chlorophyllum rhacodes,no_value
+570,Clitocybe dealbata,toxic
+571,Clitocybe geotropa,edible
+572,Coprinus picaceus,toxic
+573,Cortinarius purpurascens,no_value
+574,Cyclocybe cylindracea,edible
+575,Echinoderma asperum,toxic
+576,Flammulina velutipes,edible
+577,Gliophorus irrigatas,no_value
+578,Gliophorus reginae,no_value
+579,Grifola frondosa,edible
+580,Gymnopolis penetrans,no_value
+581,Hygrocybe miniata,edible
+582,Hygrocybe punicea,edible
+583,Inocybe erubescens,toxic
+584,Inocybe geophylla var. lilacina,toxic
+585,Lactarius camphoratus,edible
+586,Lactarius deterrimus,edible
+587,Lepiota cristata,toxic
+588,Lepista flaccida,edible
+589,Lepista saeva,edible
+590,Leucocybe connata,toxic
+591,Leucopaxillus giganteus,edible
+592,Lycoperdon nigrescens,no_value
+593,Lycoperdon pyriforme,edible
+594,Lycoperdon utriformis,edible
+595,Morchella importuna,edible
+596,Morchella semilibera,edible
+597,Morchella vulgaris,edible
+598,Mycena Galericulata,edible
+599,Mycena rosea,toxic
+600,Oudemansiella mucida,edible
+601,Pholiota adiposa,no_value
+602,Piptoporus betulinus,edible
+603,Polyporus squamosus,edible
+604,Porpolomopsis calyptriformis,edible
+605,Rhizopogdon luteolas,no_value
+606,Rhodocollybia butyraceae.,edible
+607,Rhodotus palmatus,no_value
+608,Russula atropurpurea,edible
+609,Russula claroflava,edible
+610,Russula emetica,toxic
+611,Russula fellea,toxic
+612,Sarcoscypha austriaca,edible
+613,"Scleroderma citrinum, areolatum, verrucosum",toxic
+614,Stropharia caerulea,toxic
+615,Agrocybe aegerita,edible
+616,Boletus reticulatusCalocybe gambosa,edible
+617,Cantharellus lutescens,edible
+618,Cantharellus tubaeformis,edible
+619,Helvella sp,edible
+620,Higrocybe pratensis,edible
+621,Hydnum albidum,edible
+622,Hygrophorus penarius,edible
+623,Lactarius salmonicolor,edible
+624,Morchella sp,edible
+625,Rhizopogon luteolus,edible
+626,Terfezia arenaria,edible
+627,Tuber indicum,edible
+628,Tuber magnatum,edible
+629,Ustilago maydis,edible
+630,Xerocomus badius,edible
+631,Agaricus bisporus,edible
+632,Agaricus blazei,edible
+633,Agaricus brunnescens,edible
+634,Auricularia polytricha,edible
+635,Hypsizygus marmoreus,edible
+636,Hypsizygus tessulatus,edible
+637,Pholiota nameko,edible
+638,Pleurotus cystidiosus,edible
+639,Pleurotus cornucopiae,edible
+640,Pleurotus djamor,edible
+641,Pleurotus fabellatus,edible
+642,Pleurotus pulmonarius,edible
+643,Pleurotus sajor-caju,edible
+644,Pleurotus tuber-regium,edible
+645,Tremella fuciformis,edible
+646,Tricholoma caligatum,edible
+647,Volvariella volvacea,edible
+648,Agaricus iodosmus,toxic
+649,Agaricus placomyces,toxic
+650,Amanita porrinensis,toxic
+651,Amanita proxima,toxic
+652,Boletus lupinus,toxic
+653,Boletus pulchrotinctus,toxic
+654,Boletus rhodoxanthus,toxic
+655,Boletus satanas,toxic
+656,Clitocybe acromelalga,toxic
+657,Clitocybe alnetorum,toxic
+658,Clitocybe amoenolens,toxic
+659,Clitocybe candicans,toxic
+660,Clitocybe cerussata,toxic
+661,Clitocybe clavipes,toxic
+662,Clitocybe diatreta,toxic
+663,Clitocybe ericetorum,toxic
+664,Clitocybe festiva,toxic
+665,Clitocybe gracilipes,toxic
+666,Conocybe,toxic
+667,Coprinus atramentarius,toxic
+668,Coprinus romagnesianus,toxic
+669,Cortinarius,toxic
+670,Entoloma lividum,toxic
+671,Entoloma nidorosum,toxic
+672,Entoloma niphoides,toxic
+673,Entoloma rhodopolium,toxic
+674,Entoloma vernum,toxic
+675,Galerina sp,toxic
+676,Gymnopilus sp,toxic
+677,Gyromitra sp,toxic
+678,Hebeloma crustuliniforme,toxic
+679,Hypholoma sublateritium,toxic
+680,Inocybe sp,toxic
+681,Lactarius helvus,toxic
+682,Lactarius necator,toxic
+683,Lepiota sp,toxic
+684,Macrolepiota rachodes,toxic
+685,Macrolepiota venenata,toxic
+686,Omphalotus illudens,toxic
+687,Panaeolus sp,toxic
+688,Paxillus filamentosus,toxic
+689,Pholiota squarrosa,toxic
+690,Pholiotina sp,toxic
+691,Pleurocybella porrigens,toxic
+692,Pluteus nigroviridis,toxic
+693,Pluteus salicinus,toxic
+694,Psilocybe sp,toxic
+695,Ramaria formosa,toxic
+696,Scleroderma sp,toxic
+697,Stropharia aeruginosa,toxic
+698,Stropharia coronilla,toxic
+699,Stropharia cyanea,toxic
+700,Stropharia semiglobata,toxic
+701,Stropharia stercoraria,toxic
+702,Tricholoma auratum,toxic
+703,Tricholoma filamentosum,toxic
+704,Tricholoma flavovirens,toxic
+705,Tricholoma josserandii,toxic
+706,Tricholoma pardinum,toxic
+707,Tricholoma sulfureum,toxic
+708,Tricholoma scioides,toxic
+709,Tricholoma virgatum,toxic
+710,Pleurotus,edible
+711,Hypsizygus tessellatus,edible
+712,Calbovista subsculpta,edible
+713,Clitocybe nuda,edible
+714,Cortinarius caperatus,edible
+715,Morchella,edible
+716,Morchella,toxic
+717,Tricholoma matsutake,edible
+718,Tuber ,edible
+719,Tuber indicum ,edible
+720,Tuber macrosporum,edible
+721,Tuber mesentericum ,edible
+722,Boletus badius,edible
+723,Calvatia utriformis,edible
+724,Chroogomphus,edible
+725,Clavariaceae,edible
+726,Clavulinaceae,edible
+727,Cortinarius variicolor ,edible
+728,Cyttaria espinosae,edible
+729,Hygrophorus chrysodon,edible
+730,Kalaharituber pfeilii,edible
+731,Lactarius subdulcis,edible
+732,Leccinum scabrum,edible
+733,Leccinum versipelle,edible
+734,Polyporus mylittae,edible
+735,Ramariaceae,edible
+736,Russula,edible
+737,Russula laeta,edible
+738,Suillus tomentosus,edible
+739,Coprinus,edible
+740,Gyromitra,edible
+741,Lactarius,edible
+742,Agaricus californicus,toxic
+743,Agaricus,toxic
+744,Agaricus hondensis,toxic
+745,Agaricus menieri ,toxic
+746,Agaricus phaeolepidotus,toxic
+747,Amanita abrupta,toxic
+748,Amanita aprica,toxic
+749,Amanita boudieri ,toxic
+750,Amanita smithiana,toxic
+751,Amanita vittadinii ,toxic
+752,Amanita brunnescens,toxic
+753,Amanita novinupta,toxic
+754,Amanita cokeri,toxic
+755,Amanita cothurnata ,toxic
+756,Amanita echinocephala,toxic
+757,Amanita farinosa,toxic
+758,Amanita flavorubescens ,toxic
+759,Amanita jacksonii,toxic
+760,Amanita hemibapha,toxic
+761,Amanita gioiosa ,toxic
+762,Amanita gracilior ,toxic
+763,Amanita heterochroma ,toxic
+764,Amanita hongoi ,toxic
+765,Amanita ibotengutake ,toxic
+766,Amanita neoovoidea ,toxic
+767,Amanita pseudoporphyria,toxic
+768,Amanita pseudoregalis ,toxic
+769,Amanita pseudorubescens ,toxic
+770,Infundibulicybe gibba,toxic
+771,Chlorophyllum olivieri ,toxic
+772,Clitocybe cerussata ,toxic
+773,Coprinopsis alopecia ,toxic
+774,Coprinopsis romagnesiana ,toxic
+775,Cortinarius bolaris ,toxic
+776,Cortinarius callisteus,toxic
+777,Cantharellus,toxic
+778,Cortinarius cinnabarinus ,toxic
+779,Cortinarius cinnamomeofulvus ,toxic
+780,Cortinarius cinnamomeoluteus ,toxic
+781,Cortinarius cinnamomeus,toxic
+782,Cortinarius cruentus ,toxic
+783,Cortinarius gentilis,toxic
+784,Cortinarius limonius ,toxic
+785,Cortinarius malicorius ,toxic
+786,Cortinarius mirandus ,toxic
+787,Cortinarius palustris ,toxic
+788,Cortinarius phoeniceus ,toxic
+789,Cortinarius rubicundulus ,toxic
+790,Cortinarius smithii,toxic
+791,Cudonia circinans ,toxic
+792,Gyromitra perlata ,toxic
+793,Echinoderma calcicola ,toxic
+794,Entoloma albidum,toxic
+795,Clitocybe multiceps ,toxic
+796,Entoloma sarcopum ,toxic
+797,Clitopilus geminus,toxic
+798,Lepista irina ,toxic
+799,Helvella dryophila,toxic
+800,Helvella lactea ,toxic
+801,Helvella vespertina,toxic
+802,Hapalopilus nidulans,toxic
+803,Kuehneromyce mutabilis ,toxic
+804,Hypholoma marginatum ,toxic
+805,Hypholoma radicosum ,toxic
+806,Neoboletus erythropus ,toxic
+807,Inocybe fibrosa ,toxic
+808,Inocybe hystrix,toxic
+809,Inocybe rimosa,toxic
+810,Inocybe sambucina ,toxic
+811,Mycena diosma ,toxic
+812,Panaeolus cinctulus,toxic
+813,Omphalotus japonicus,toxic
+814,Sarcomyxa serotina,toxic
+815,Omphalotus nidiformis,toxic
+816,Omphalotus olivascens,toxic
+817,Paralepistopsis acromelalga ,toxic
+818,Paralepista gilva ,toxic
+819,Paralepistopsis amoenolens,toxic
+820,Paralepista inversa,toxic
+821,Pholiotina rugosa,toxic
+822,Ramaria botrytis,toxic
+823,Ramaria neoformosa ,toxic
+824,Ramaria pallida,toxic
+825,Rubroboletus legaliae,toxic
+826,Rubroboletus pulcherrimus,toxic
+827,Rubroboletus satanas,toxic
+828,Russula subnigricans,toxic
+829,Tricholoma filamentosum ,toxic
+830,Tricholoma myomyces,toxic
+831,Tricholoma muscarium,toxic
+832,Trogia venenata,toxic
+833,Turbinellus floccosus,toxic
+834,Gomphus clavatus,toxic
+835,Polyozellus multiplex,toxic
+836,Turbinellus kauffmanii,toxic
+837,Agrocybe arenicola ,toxic
+838,Amanita albocreata,toxic
+839,Amanita altipes,toxic
+840,Amanita breckonii,toxic
+841,Amanita eliae,toxic
+842,Amanita flavoconia,toxic
+843,Amanita frostiana,toxic
+844,Amanita nehuta,toxic
+845,Amanita parcivolvata,toxic
+846,Amanita parvipantherina,toxic
+847,Amanita petalinivolva ,toxic
+848,Amanita roseotincta,toxic
+849,Amanita rubrovolvata,toxic
+850,Amanita subfrostiana ,toxic
+851,Amanita velatipes,toxic
+852,Amanita viscidolutea ,toxic
+853,Amanita wellsii,toxic
+854,Amanita xanthocephala,toxic
+855,Wikipedia:Citation needed,toxic
+856,Chlorophyllum brunneum,toxic
+857,Choiromyces venosus ,toxic
+858,Clitocybe fragrans,toxic
+859,Conocybe subovalis ,toxic
+860,Marasmius collinus ,toxic
+861,Russula viscida ,toxic
+862,Tricholoma sulphureum,toxic
+863,Tricholoma bufonium ,toxic
