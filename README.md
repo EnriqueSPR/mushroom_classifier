@@ -11,3 +11,9 @@ Hence, it is important to discern what mushrooms are safe to pick.
 In this notebook, I will train an algorithm that can aid us in classifying mushroom species.
 
 <img src="figures/edible_vs_toxic.png" width="600"/> 
+
+## Code and Resources Used:
+
+**Python Version**: 3.7
+
+**Packages**: pandas, numpy, csv, re, datetime, os, sklearn, matplotlib, seaborn, plotly.express, splitfolders, keras and tensorflow.
