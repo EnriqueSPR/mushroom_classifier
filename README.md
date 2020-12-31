@@ -17,3 +17,21 @@ In this notebook, I will train an algorithm that can aid us in classifying mushr
 **Python Version**: 3.7
 
 **Packages**: pandas, numpy, csv, re, datetime, os, sklearn, matplotlib, seaborn, plotly.express, splitfolders, keras and tensorflow.
+
+## 1. Scrape mushroom information and generate the picture dataset
+
+**1.1** Get all the scientific names. 
+
+**1.2** Use the scientific names to scrape pictures.
+
+## 2. Prepare the picture dataset
+
+**2.1**  First I will **re-size** all the pictures from the picture dataset to **350x350 pixels** 
+
+**2.2** Convert all pictures into the same format (i.e. jpeg)
+
+**2.3** Organize **train, test, and validation** image datasets into a consistent directory structure.
+
+
+
+
