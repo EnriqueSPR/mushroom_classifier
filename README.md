@@ -32,6 +32,22 @@ In this notebook, I will train an algorithm that can aid us in classifying mushr
 
 **2.3** Organize **train, test, and validation** image datasets into a consistent directory structure.
 
-
+    ├── test
+    │   ├── mushroom_name
+    │   │   └── name_01.jpg
+    │   └── ...
+    │       └── name_01.jpg
+    ├── train
+    │   ├── mushroom_name
+    │   │   └── name_01.jpg
+    │   └── ...
+    │       └── name_01.jpg
+    └── validation
+        ├── mushroom_name
+        │   └── name_01.jpg
+        └── ...
+            └── name_01.jpg
+            
+## 3. Create ImageDataGenerators and train the CNN model(s)
 
 
