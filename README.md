@@ -48,6 +48,6 @@ In this notebook, I will train an algorithm that can aid us in classifying mushr
         └── ...
             └── name_01.jpg
             
-## 3. Create ImageDataGenerators and train the CNN model(s)
+## 3. Create ImageDataGenerators and train the CNN model(s) Xception, Inception V4 and ResNeXt50 + CBAM
 
 
