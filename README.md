@@ -28,7 +28,7 @@ In this notebook, I will train an algorithm that can aid us in classifying mushr
 
    * **2.1**  First I will **re-size** all the pictures from the picture dataset to **350x350 pixels** 
 
-   * **2.2** Convert all pictures into the same format (i.e. jpeg)
+   * **2.2** Convert all pictures into the **same format** (i.e. jpeg)
 
    * **2.3** Organize **train, test, and validation** image datasets into a consistent directory structure.
 
@@ -49,5 +49,10 @@ In this notebook, I will train an algorithm that can aid us in classifying mushr
             └── name_01.jpg
             
 ## 3. Create ImageDataGenerators and train the CNN model(s) Xception, Inception V4 and ResNeXt50 + CBAM
+
+  * **3.1 Data Augmentation**: To expand the training dataset in order to improve the performance and ability of the model to generalize.
+  
+  See below an example on how data augmentation generates different variants of the same picture.
+  <img src="figures/data_augmentation.png" width="300"/> 
 
 
