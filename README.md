@@ -53,6 +53,7 @@ In this notebook, I will train an algorithm that can aid us in classifying mushr
   * **3.1 Data Augmentation**: To expand the training dataset in order to improve the performance and ability of the model to generalize.
   
   See below an example on how data augmentation generates different variants of the same picture.
+  
   <img src="figures/data_augmentation.png" width="300"/> 
 
 
