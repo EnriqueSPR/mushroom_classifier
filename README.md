@@ -36,17 +36,17 @@ In this notebook, I will train an algorithm that can aid us in classifying mushr
     │   ├── mushroom_name
     │   │   └── name_01.jpg
     │   └── ...
-    │       └── name_01.jpg
+    │       └── name_50.jpg
     ├── train
     │   ├── mushroom_name
     │   │   └── name_01.jpg
     │   └── ...
-    │       └── name_01.jpg
+    │       └── name_300.jpg
     └── validation
         ├── mushroom_name
         │   └── name_01.jpg
         └── ...
-            └── name_01.jpg
+            └── name_50.jpg
             
 ## 3. Create ImageDataGenerators and train the CNN model(s) Xception, Inception V4 and ResNeXt50 + CBAM
 
