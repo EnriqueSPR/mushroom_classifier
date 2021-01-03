@@ -48,7 +48,7 @@ In this notebook, I will train an algorithm that can aid us in classifying mushr
         └── ...
             └── name_50.jpg
             
-## 3. Create ImageDataGenerators and train the CNN model(s) Xception, Inception V4 and ResNeXt50 + CBAM
+## 3. Create ImageDataGenerators and train the CNN model(s) Xception, Inception_Resnet_V2  and ResNeXt50 + CBAM
 
   * **3.1 Data Augmentation**: To expand the training dataset in order to improve the performance and ability of the model to generalize.
   
