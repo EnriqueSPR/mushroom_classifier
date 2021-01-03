@@ -57,3 +57,4 @@ In this notebook, I will train an algorithm that can aid us in classifying mushr
   <img src="figures/data_augmentation.png" width="300"/> 
 
 
+* **3.2 Model Comparisson Performance**
