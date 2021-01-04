@@ -60,7 +60,7 @@ Three different models reported to have high accuracy were selected for transfer
   
   See below an example on how data augmentation generates different variants of the same picture.
   
-  <img src="figures/data_augmentation.png" width="300"/> 
+  <img src="figures/data_augmentation.png" width="400"/> 
 
 
 * **4.2 Model Comparisson Performance**
