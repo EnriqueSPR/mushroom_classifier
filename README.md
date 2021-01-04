@@ -48,13 +48,19 @@ In this notebook, I will train an algorithm that can aid us in classifying mushr
         └── ...
             └── name_50.jpg
             
-## 3. Create ImageDataGenerators and train the CNN model(s) Xception, Inception_Resnet_V2  and ResNeXt50 + CBAM
+## 3. Select CNN models for transfer learning
 
-  * **3.1 Data Augmentation**: To expand the training dataset in order to improve the performance and ability of the model to generalize.
+Three different models reported to have high accuracy were selected for transfer learning. See this [paper](https://arxiv.org/abs/1810.00736) for model performance comparission. 
+
+ <img src="figures/image_classification_models.png" width="500"/> 
+            
+## 4. Create ImageDataGenerators and train the CNN model(s) Xception, Inception_Resnet_V2  and ResNeXt50 + CBAM
+
+  * **4.1 Data Augmentation**: To expand the training dataset in order to improve the performance and ability of the model to generalize.
   
   See below an example on how data augmentation generates different variants of the same picture.
   
   <img src="figures/data_augmentation.png" width="300"/> 
 
 
-* **3.2 Model Comparisson Performance**
+* **4.2 Model Comparisson Performance**
