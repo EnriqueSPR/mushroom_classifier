@@ -63,4 +63,4 @@ Three different models reported to have high accuracy were selected for transfer
   <img src="figures/data_augmentation.png" width="400"/> 
 
 
-* **4.2 Model Comparisson Performance**
+* **4.2 Model Performance Comparisson**
