@@ -65,7 +65,7 @@ Three different models reported to have high accuracy were selected for transfer
 
 * **4.2 Model Training**
 
-<img src="figures/Xception_Training.png" width="600"/> 
+<img src="figures/Xception_Model_Training.png" width="600"/> 
 
 We observe a better performance on the validation set compared to the training set. A possible explanation is that the validation set may be easier than the training set. [See this article](https://www.pyimagesearch.com/2019/10/14/why-is-my-validation-loss-lower-than-my-training-loss/). After inspecting the picture set obtained from google images, I observed pictures duplicated in both sets. Hence, I will performed some data cleaning by removing duplicate pictures. This will reduce the dataset size but the model will generalize better.
 
