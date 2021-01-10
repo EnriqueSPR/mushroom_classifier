@@ -63,7 +63,7 @@ Three different models reported to have high accuracy were selected for transfer
   <img src="figures/data_augmentation.png" width="400"/> 
 
 
-* **4.2 Model Training**
+* **4.2 Xception Model Training**
 
 <img src="figures/Xception_Model_Training.png" width="600"/> 
 
