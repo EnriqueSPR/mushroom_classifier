@@ -63,7 +63,7 @@ Three different models reported to have high accuracy were selected for transfer
   <img src="figures/data_augmentation.png" width="400"/> 
 
 
-* **4.2 Xception Model Training**
+* **4.2 Xception(2016) Model Training**
 
 <img src="figures/Xception_Training.png" width="600"/> 
 
@@ -72,3 +72,5 @@ We observe a better performance on the validation set compared to the training s
 <img src="figures/Xception_Training_reduced.png" width="600"/> 
 
 It becomes apparent that more pictures may be needed to increase the accuracy of the model. Nonetheless, first I will try a model containing more trainable parameters to see whether if this model can perform better with the same reduced picture dataset
+
+* **4.3 EfficientNetB7(2020) Model Training**
