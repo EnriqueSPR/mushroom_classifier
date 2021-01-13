@@ -79,19 +79,19 @@ Example Single Picture Evaluation:
 
 <img src="figures/nomo.jpeg" width="200"/>  
 
-    * Top 1 Prediction: With 48.57% probability is a picture of Amanita muscaria.
-    * Top 2 Prediction: With 18.68% probability is a picture of Amanita hongoi.
-    * Top 3 Prediction: With 18.11% probability is a picture of Amanita heterochroma.
-    * Top 4 Prediction: With  6.49% probability is a picture of Amanita parcivolvata.
-    * Top 5 Prediction: With  4.88% probability is a picture of Amanita xanthocephala.
+    * Top 1 Prediction: With 48.6% probability is a picture of Amanita muscaria.
+    * Top 2 Prediction: With 18.7% probability is a picture of Amanita hongoi.
+    * Top 3 Prediction: With 18.1% probability is a picture of Amanita heterochroma.
+    * Top 4 Prediction: With  6.5% probability is a picture of Amanita parcivolvata.
+    * Top 5 Prediction: With  4.9% probability is a picture of Amanita xanthocephala.
 
 <img src="figures/niscalos.jpeg" width="200"/> 
 
-    * Top 1 Prediction: With 89.22% probability is a picture of Lactarius deliciosus.
-    * Top 2 Prediction: With  5.55% probability is a picture of Lactarius salmonicolor.
-    * Top 3 Prediction: With  2.55% probability is a picture of Lactarius semisanguifluus.
-    * Top 4 Prediction: With  1.45% probability is a picture of Lactarius.
-    * Top 5 Prediction: With  0.97% probability is a picture of Lactarius sanguifluus.
+    * Top 1 Prediction: With 89.2% probability is a picture of Lactarius deliciosus.
+    * Top 2 Prediction: With  5.6% probability is a picture of Lactarius salmonicolor.
+    * Top 3 Prediction: With  2.6% probability is a picture of Lactarius semisanguifluus.
+    * Top 4 Prediction: With  1.5% probability is a picture of Lactarius.
+    * Top 5 Prediction: With  1.0% probability is a picture of Lactarius sanguifluus.
 
 Next, I will try two more models containing more trainable parameters to see whether if these models can perform better.
 
