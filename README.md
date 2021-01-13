@@ -95,4 +95,4 @@ Example Single Picture Evaluation:
 
 Next, I will try two more models containing more trainable parameters to see whether if these models can perform better.
 
-* **4.4 EfficientNetB7(2020) Model Training**
+* **4.4 InceptionResNetV2(2016) Model Training**
