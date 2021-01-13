@@ -79,13 +79,13 @@ Example Single Picture Evaluation:
 
 
 
-<img src="figures/death_cap.jpeg" width="200"/>  
+<img src="figures/nomo.jpeg" width="200"/>  
 
-    * Top 1 Prediction: With 65.10% probability is a picture of Amanita citrina.
-    * Top 2 Prediction: With 15.49% probability is a picture of Amanita citrina var citrina.
-    * Top 3 Prediction: With  4.75% probability is a picture of Amanita strobiliformis.
-    * Top 4 Prediction: With  4.75% probability is a picture of Amanita citrina var alba.
-    * Top 5 Prediction: With  2.98% probability is a picture of Amanita gioiosa.
+    * Top 1 Prediction: With 48.57% probability is a picture of Amanita muscaria.
+    * Top 2 Prediction: With 18.68% probability is a picture of Amanita hongoi.
+    * Top 3 Prediction: With 18.11% probability is a picture of Amanita heterochroma.
+    * Top 4 Prediction: With  6.49% probability is a picture of Amanita parcivolvata.
+    * Top 5 Prediction: With  4.88% probability is a picture of Amanita xanthocephala.
 
 <img src="figures/niscalos.jpeg" width="200"/> 
 
