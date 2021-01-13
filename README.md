@@ -71,6 +71,31 @@ We observe a better performance on the validation set compared to the training s
 
 <img src="figures/Xception_Training_reduced.png" width="600"/> 
 
+* **4.3 Xception Performance Evaluation**
+
+Xception model -> accuracy: 70.30%, loss: 1.02
+
+Example Single Picture Evaluation:
+
+
+
+<img src="figures/death_cap.jpeg" width="200"/>  
+
+    * Top 1 Prediction: With 65.10% probability is a picture of Amanita citrina.
+    * Top 2 Prediction: With 15.49% probability is a picture of Amanita citrina var citrina.
+    * Top 3 Prediction: With  4.75% probability is a picture of Amanita strobiliformis.
+    * Top 4 Prediction: With  4.75% probability is a picture of Amanita citrina var alba.
+    * Top 5 Prediction: With  2.98% probability is a picture of Amanita gioiosa.
+
+<img src="figures/niscalos.jpeg" width="200"/> 
+
+    * Top 1 Prediction: With 89.22% probability is a picture of Lactarius deliciosus.
+    * Top 2 Prediction: With  5.55% probability is a picture of Lactarius salmonicolor.
+    * Top 3 Prediction: With  2.55% probability is a picture of Lactarius semisanguifluus.
+    * Top 4 Prediction: With  1.45% probability is a picture of Lactarius.
+    * Top 5 Prediction: With  0.97% probability is a picture of Lactarius sanguifluus.
+
+
 It becomes apparent that more pictures may be needed to increase the accuracy of the model. Nonetheless, first I will try a model containing more trainable parameters to see whether if this model can perform better with the same reduced picture dataset
 
-* **4.3 EfficientNetB7(2020) Model Training**
+* **4.4 EfficientNetB7(2020) Model Training**
