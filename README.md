@@ -54,7 +54,7 @@ Three different models reported to have high accuracy were selected for transfer
 
  <img src="figures/image_classification_models.png" width="500"/> 
             
-## 4. Create ImageDataGenerators and train the CNN model(s) using the Xception model.
+## 4. Create ImageDataGenerators and train the CNN model(s).
 
   * **4.1 Data Augmentation**: To expand the training dataset in order to improve the performance and ability of the model to generalize.
   
