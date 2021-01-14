@@ -63,7 +63,7 @@ Three different models reported to have high accuracy were selected for transfer
   <img src="figures/data_augmentation.png" width="400"/> 
 
 
-* **4.2 Xception(2016) Model Training**
+* **4.2 Xception(2016) Model Training - Trainable params: 27,946,080**
 
 <img src="figures/Xception_Training.png" width="600"/> 
 
