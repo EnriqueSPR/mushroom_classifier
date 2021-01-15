@@ -93,7 +93,7 @@ Example Single Picture Evaluation:
     * Top 4 Prediction: With  1.5% probability is a picture of Lactarius.
     * Top 5 Prediction: With  1.0% probability is a picture of Lactarius sanguifluus.
 
-Next, I will improve the picture dataset and train two more models containing more trainable parameters (Ongoing).
+Next, I will improve the picture dataset and train two more models containing more trainable parameters (Ongoing...▶).
 
 * **4.4 InceptionResNetV2(2016) Model Training - Trainable params: 60,356,494, picture_size=299,299**
 
