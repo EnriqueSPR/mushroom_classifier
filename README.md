@@ -95,13 +95,13 @@ Example Single Picture Evaluation:
 
 Next, I will improve the picture dataset and train two more models containing more trainable parameters (Ongoing...▶).
 
-* **4.4 InceptionResNetV2(2016) Model Training - Trainable params: 60,356,494, picture_size=299,299**
+* **4.4 InceptionResNetV2(2016) Model Training - Trainable params: 60.356.494, picture_size=(299x299)**
 
 
 * **4.5 InceptionResNetV2 Performance Evaluation**
 
 
-* **4.6 EfficientNetB7 (2020) Model Training - Trainable params: 71,964,414, picture_size=600,600**
+* **4.6 EfficientNetB7 (2020) Model Training - Trainable params: 71.964.414, picture_size=(600x600)**
 
 
 * **4.7 EfficientNetB7 Performance Evaluation**
