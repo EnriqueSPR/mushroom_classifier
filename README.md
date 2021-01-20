@@ -93,7 +93,7 @@ Example Single Picture Evaluation:
     * Top 4 Prediction: With  1.5% probability is a picture of Lactarius.
     * Top 5 Prediction: With  1.0% probability is a picture of Lactarius sanguifluus.
 
-Next, I will improve the picture dataset and train EfficientNetB7 (2020), a model containing more trainable parameters (Ongoing...▶).
+Next, I will improve the picture dataset, I include more mushroom species and train EfficientNetB7 (2020), a model containing more trainable parameters (Ongoing...▶).
 
 
 * **4.4 EfficientNetB7 (2020) Model Training - Trainable params: 71.964.414, picture_size=(600x600)**
