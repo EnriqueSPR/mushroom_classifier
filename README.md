@@ -16,7 +16,7 @@ In this notebook, I will train an algorithm that can aid us in classifying mushr
 
 **Python Version**: 3.7
 
-**Packages**: pandas, numpy, csv, bing_image_downloader, simple_image_download, re, datetime, os, time, glob, sklearn, matplotlib, seaborn, splitfolders, keras and tensorflow.
+**Packages used**: pandas, numpy, csv, bing_image_downloader, simple_image_download, pathlib, sys, re, datetime, os, time, glob, sklearn, matplotlib, seaborn, splitfolders, keras and tensorflow.
 
 ## 1. Scrape mushroom information and generate the picture dataset
 
