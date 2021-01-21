@@ -38,7 +38,7 @@ In this notebook, I will train an algorithm that can aid us in classifying mushr
    
 ## 2. Prepare the picture dataset
 
-   * **2.1** Removed duplicate pictures using [Fast Duplicate File Finder](https://www.mindgems.com/products/Fast-Duplicate-File-Finder/Fast-Duplicate-File-Finder-About.htm).
+   * **2.1** Removed duplicate pictures using the free available software [Fast Duplicate File Finder](https://www.mindgems.com/products/Fast-Duplicate-File-Finder/Fast-Duplicate-File-Finder-About.htm).
    
    * **2.2** Renaming folders (replace " ", by "_")
 
