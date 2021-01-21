@@ -38,7 +38,7 @@ In this notebook, I will train an algorithm that can aid us in classifying mushr
     │   ├── mushroom_name
     │   │   └── name_01.jpg
     │   └── ...
-    │       └── name_$n_{1}$.jpg
+    │       └── name_n.jpg
     ├── train
     │   ├── mushroom_name
     │   │   └── name_01.jpg
