@@ -97,9 +97,9 @@ Example Single Picture Evaluation:
 
 Next, I will improve the picture dataset, I include more mushroom species and train EfficientNetB7 (2020), a model containing more trainable parameters (Ongoing...▶).
 
-* I obtained a total of 2000 mushroom species. Next I will remove the "var." species and some duplicates. This yielded a total of **1911 total mushrooms.**
+* I obtained a total of 2000 mushroom species. Next I removed the "var." species and some duplicates. This yielded a total of **1911 total mushrooms.**
 
-> From these species I will select the most popular ones and I will also try to avoid names used interchangeably.
+> From these species I selected the most popular ones.
 
 > For this I defined a function ``finder`` to scprape the hits from a google search with "Word1 Word2" in quotations to get an idea of the popularity of each specie.
 
