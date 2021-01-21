@@ -20,9 +20,7 @@ In this notebook, I will train an algorithm that can aid us in classifying mushr
 
 ## 1. Scrape mushroom information and generate the picture dataset
 
-   * **1.1** Get all the scientific names. 
-   
-I obtained a total of 2000 mushroom species. Next I removed the "var." species and some duplicates. This yielded a total of **1911 total mushrooms.**
+   * **1.1** Get all the scientific names: I obtained a total of 2000 mushroom species. Next I removed the "var." species and some duplicates. This yielded a total of **1911 total mushrooms.**
 
 > From these species I selected the most popular ones.
 
