@@ -26,7 +26,9 @@ In this notebook, I will train an algorithm that can aid us in classifying mushr
 
 ## 2. Prepare the picture dataset
 
-   * **2.1**  First I will **re-size** all the pictures from the picture dataset to **350x350 pixels** 
+   * **2.1** Renaming folders (replace " ", by "_")
+
+   * **2.1**  **Re-size** all the pictures from the picture dataset to **600x600 pixels** 
 
    * **2.2** Convert all pictures into the **same format** (i.e. jpeg)
 
@@ -36,17 +38,17 @@ In this notebook, I will train an algorithm that can aid us in classifying mushr
     │   ├── mushroom_name
     │   │   └── name_01.jpg
     │   └── ...
-    │       └── name_50.jpg
+    │       └── name_$n_{1}$.jpg
     ├── train
     │   ├── mushroom_name
     │   │   └── name_01.jpg
     │   └── ...
-    │       └── name_300.jpg
+    │       └── name_n.jpg
     └── validation
         ├── mushroom_name
         │   └── name_01.jpg
         └── ...
-            └── name_50.jpg
+            └── name_n.jpg
             
 ## 3. Select CNN models for transfer learning
 
