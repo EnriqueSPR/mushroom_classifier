@@ -21,9 +21,23 @@ In this notebook, I will train an algorithm that can aid us in classifying mushr
 ## 1. Scrape mushroom information and generate the picture dataset
 
    * **1.1** Get all the scientific names. 
+   
+I obtained a total of 2000 mushroom species. Next I removed the "var." species and some duplicates. This yielded a total of **1911 total mushrooms.**
+
+> From these species I selected the most popular ones.
+
+> For this I defined a function ``finder`` to scprape the hits from a google search with "Word1 Word2" in quotations to get an idea of the popularity of each specie.
+
+> A second function ``parse_value_syntax`` was used to parse the value into a float.
+
+> Using the hits in google I filtered those species with more than **20.000 hits** resulting in a total of **1071 mushroom species**.
 
    * **1.2** Use the scientific names to scrape pictures.
+   
+> Google pictures were scraped using the ``simple_image_download`` library.
 
+> Bing pictures were scraped using the ``bing_image_downloader`` library..
+   
 ## 2. Prepare the picture dataset
 
    * **2.1** Renaming folders (replace " ", by "_")
@@ -97,15 +111,7 @@ Example Single Picture Evaluation:
 
 Next, I will improve the picture dataset, I include more mushroom species and train EfficientNetB7 (2020), a model containing more trainable parameters (Ongoing...▶).
 
-* I obtained a total of 2000 mushroom species. Next I removed the "var." species and some duplicates. This yielded a total of **1911 total mushrooms.**
 
-> From these species I selected the most popular ones.
-
-> For this I defined a function ``finder`` to scprape the hits from a google search with "Word1 Word2" in quotations to get an idea of the popularity of each specie.
-
-> A second function ``parse_value_syntax`` was used to parse the value into a float.
-
-> Using the hits in google I filtered those species with more than **20.000 hits** resulting in a total of **1071 mushroom species**.
 
 
 * **4.4 EfficientNetB7 (2020) Model Training - Trainable params: 71.964.414, picture_size=(600x600)**
