@@ -36,19 +36,19 @@ In this notebook, I will train an algorithm that can aid us in classifying mushr
 
     ├── test
     │   ├── mushroom_name
-    │   │   └── name_01.jpg
+    │   │   └── name_01.jpeg
     │   └── ...
-    │       └── name_n.jpg
+    │       └── name_n.jpeg
     ├── train
     │   ├── mushroom_name
-    │   │   └── name_01.jpg
+    │   │   └── name_01.jpeg
     │   └── ...
-    │       └── name_n.jpg
+    │       └── name_n.jpeg
     └── validation
         ├── mushroom_name
-        │   └── name_01.jpg
+        │   └── name_01.jpeg
         └── ...
-            └── name_n.jpg
+            └── name_n.jpeg
             
 ## 3. Select CNN models for transfer learning
 
@@ -96,6 +96,16 @@ Example Single Picture Evaluation:
     * Top 5 Prediction: With  1.0% probability is a picture of Lactarius sanguifluus.
 
 Next, I will improve the picture dataset, I include more mushroom species and train EfficientNetB7 (2020), a model containing more trainable parameters (Ongoing...▶).
+
+* I obtained a total of 2000 mushroom species. Next I will remove the "var." species and some duplicates. This yielded a total of **1911 total mushrooms.**
+
+> From these species I will select the most popular ones and I will also try to avoid names used interchangeably.
+
+> For this I defined a function ``finder`` to scprape the hits from a google search with "Word1 Word2" in quotations to get an idea of the popularity of each specie.
+
+> A second function ``parse_value_syntax`` was used to parse the value into a float.
+
+> Using the hits in google I filtered those species with more than **20.000 hits** resulting in a total of **1071 mushroom species**.
 
 
 * **4.4 EfficientNetB7 (2020) Model Training - Trainable params: 71.964.414, picture_size=(600x600)**
