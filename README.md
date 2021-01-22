@@ -1,6 +1,6 @@
 # Mushroom classifier (CNN)
 
-The goal in this project is to train a CNN to classify pictures of mushrooms in over 800 different species.
+The goal in this project is to train a CNN to classify pictures of mushrooms in over 1000 different species.
 
 ## Introduction:
 
