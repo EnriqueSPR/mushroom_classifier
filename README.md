@@ -38,15 +38,15 @@ In this notebook, I will train an algorithm that can aid us in classifying mushr
    
 ## 2. Prepare the picture dataset
 
-   * **2.1** Removed duplicate pictures using the free available software [Fast Duplicate File Finder](https://www.mindgems.com/products/Fast-Duplicate-File-Finder/Fast-Duplicate-File-Finder-About.htm).
+   * **2.1 Removed duplicate pictures** using the free available software [Fast Duplicate File Finder](https://www.mindgems.com/products/Fast-Duplicate-File-Finder/Fast-Duplicate-File-Finder-About.htm).
    
-   * **2.2** Renaming folders (replace " ", by "_")
+   * **2.2 Renaming** folders (replace " ", by "_")
 
-   * **2.3**  **Re-size** all the pictures from the picture dataset to **600x600 pixels** 
+   * **2.3 Re-size** all the pictures from the picture dataset to **600x600 pixels** 
 
-   * **2.4** Convert all pictures into the **same format** (i.e. jpeg)
+   * **2.4 Convert all pictures into the same format** (i.e. jpeg)
 
-   * **2.5** Organize **train, test, and validation** image datasets into a consistent directory structure.
+   * **2.5 Organize train, test, and validation** image datasets into a consistent directory structure.
 
     ├── test
     │   ├── mushroom_name
