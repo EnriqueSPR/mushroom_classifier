@@ -24,7 +24,7 @@ In this notebook, I will train an algorithm that can aid us in classifying mushr
 
 > From these species I selected the most popular ones.
 
-> For this I defined a function ``finder`` to scprape the hits from a google search with "Word1 Word2" in quotations to get an idea of the popularity of each specie.
+> For this I defined a function ``finder`` to scrape the hits from a google search with "Word1 Word2" in quotations to get an idea of the popularity of each specie.
 
 > A second function ``parse_value_syntax`` was used to parse the value into a float.
 
