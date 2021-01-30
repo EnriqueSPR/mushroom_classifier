@@ -46,7 +46,7 @@ In this notebook, I will train an algorithm that can aid us in classifying mushr
 
    * **2.4 Convert all pictures into the same format** (i.e. jpeg)
 
-   * **2.5 Organize train, test, and validation** image datasets into a consistent directory structure.
+   * **2.5 Organize train, test, and validation** image datasets into a consistent directory structure (**Ratio: 0.75/0.15/0.15**).
 
     ├── test
     │   ├── mushroom_name
