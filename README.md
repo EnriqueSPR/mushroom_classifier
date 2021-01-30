@@ -85,7 +85,7 @@ Three different models reported to have high accuracy were selected for transfer
   <img src="figures/data_augmentation.png" width="400"/> 
 
 
-* **4.2 Xception(2016) Model Training - Trainable params: 27,946,080**
+* **4.2 Xception(2016) Model Training - Trainable params: 27,946,080. Picture size=299x299**
 
 <img src="figures/Xception_Training.png" width="600"/> 
 
@@ -119,8 +119,6 @@ Next, I will improve the picture dataset, I include more mushroom species and tr
 
 
 
+* **4.4 InceptionResNetV2(2016) Model Training - Trainable params: 60,356,494. Picture_size=600x600**
 
-* **4.4 EfficientNetB7 (2020) Model Training - Trainable params: 71.964.414, picture_size=(600x600)**
-
-
-* **4.5 EfficientNetB7 Performance Evaluation**
+* **4.5 InceptionResNetV2 Performance Evaluation**
