@@ -66,7 +66,7 @@ In this notebook, I will train an algorithm that can aid us in classifying mushr
             
 	    
 	    
-* **2.6** Final picture dataset contained a total of **165.792 pictures** (11GB) distributed among **1023 mushroom species** as follow:
+* **2.6 Final picture dataset** contained a total of **165.792 pictures** (11GB) distributed among **1023 mushroom species** as follow:
 	
 	 <img src="figures/number_pictures.png" width="600"/> 
             
