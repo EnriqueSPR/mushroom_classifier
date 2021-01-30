@@ -1,6 +1,6 @@
 # Mushroom classifier (CNN)
 
-The goal in this project is to train a CNN to classify pictures of mushrooms in over 1000 different species.
+The goal in this project is to train a CNN to classify pictures of mushrooms from over 1000 different species.
 
 ## Introduction:
 
@@ -63,6 +63,10 @@ In this notebook, I will train an algorithm that can aid us in classifying mushr
         │   └── name_01.jpeg
         └── ...
             └── name_n.jpeg
+            
+	* **2.6 Final picture dataset contained a total of 165.792 pictures (11GB) distributed among 1023 mushroom species as follow:
+	
+	 <img src="figures/number_pictures.png" width="600"/> 
             
 ## 3. Select CNN models for transfer learning
 
