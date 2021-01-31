@@ -16,7 +16,7 @@ In this notebook, I will train an algorithm that can aid us in classifying mushr
 
 **Python Version**: 3.7
 
-**Packages used**: pandas, numpy, csv, bing_image_downloader, simple_image_download, pathlib, sys, re, datetime, os, time, glob, sklearn, matplotlib, seaborn, splitfolders, keras (2.3.1) and tensorflow (2.4.0).
+**Packages used**: pandas, numpy, csv, bing_image_downloader, simple_image_download, pathlib, sys, re, datetime, os, time, glob, shutil, sklearn, matplotlib, seaborn, splitfolders, keras (2.3.1) and tensorflow (2.4.0).
 
 ## 1. Scrape mushroom information and generate the picture dataset
 
@@ -66,13 +66,13 @@ In this notebook, I will train an algorithm that can aid us in classifying mushr
             
 	    
 	    
-* **2.6 Final picture dataset** contained a total of **165.792 pictures** (11GB) distributed among **1023 mushroom species** as follow:
+* **2.6 Final picture dataset** contained a total of **154.000 pictures** (11GB) distributed among **933 mushroom species** as follow:
 	
 	 <img src="figures/number_pictures.png" width="600"/> 
             
 ## 3. Select CNN models for transfer learning
 
-Three different models reported to have high accuracy were selected for transfer learning. See this [paper](https://arxiv.org/abs/1810.00736) for model performance comparission. 
+Three different models reported to have high accuracy on the **ImageNet** dataset were selected for transfer learning. See this [paper](https://arxiv.org/abs/1810.00736) for model performance comparission. 
 
  <img src="figures/image_classification_models.png" width="500"/> 
             
