@@ -68,7 +68,7 @@ In this notebook, I will train an algorithm that can aid us in classifying mushr
 	    
 * **2.6 Final picture dataset** contained a total of **154.000 pictures** (11GB) distributed among **933 mushroom species** as follow:
 	
-	 <img src="figures/number_pictures.png" width="600"/> 
+	 <img src="figures/number_pictures_2.png" width="600"/> 
             
 ## 3. Select CNN models for transfer learning
 
