@@ -78,7 +78,7 @@ In this notebook, I will train an algorithm that can aid us in classifying mushr
             
 ## 3. Select CNN models for transfer learning
 
-Three different models reported to have high accuracy on the **ImageNet** dataset were selected for transfer learning. See this [paper](https://arxiv.org/abs/1810.00736) for model performance comparission. 
+I selected Xception for transfer learning, a model with reduced complexity which gives good results on the **ImageNet** dataset. See this [paper](https://arxiv.org/abs/1810.00736) for model performance comparission. 
 
  <img src="figures/image_classification_models.png" width="500"/> 
  
