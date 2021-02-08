@@ -82,6 +82,11 @@ I selected Xception for transfer learning, a model with reduced complexity which
 
  <img src="figures/image_classification_models.png" width="500"/> 
  
+  Xception Architecture used:
+  
+ <img src="figures/Xception_structure.png" width="500"/> 
+ 
+ 
 ---
             
 ## 4. Create ImageDataGenerators and train the CNN model(s).
