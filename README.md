@@ -18,6 +18,8 @@ In this notebook, I will train an algorithm that can aid us in classifying mushr
 
 **Packages used**: pandas, numpy, csv, bing_image_downloader, simple_image_download, pathlib, sys, re, datetime, os, time, glob, shutil, sklearn, matplotlib, seaborn, splitfolders, keras (2.3.1) and tensorflow (2.4.0).
 
+---
+
 ## 1. Scrape mushroom information and generate the picture dataset
 
    * **1.1** Get all the scientific names: I obtained a total of 2000 mushroom species. Next I removed the "var." species and some duplicates. This yielded a total of **1911 total mushrooms.**
@@ -35,6 +37,8 @@ In this notebook, I will train an algorithm that can aid us in classifying mushr
 > Google pictures were scraped using the ``simple_image_download`` library.
 
 > Bing pictures were scraped using the ``bing_image_downloader`` library..
+
+---
    
 ## 2. Prepare the picture dataset
 
@@ -69,12 +73,16 @@ In this notebook, I will train an algorithm that can aid us in classifying mushr
 * **2.6 Final picture dataset** contained a total of **154.000 pictures** (11GB) distributed among **933 mushroom species** as follow:
 	
 	 <img src="figures/number_pictures_2.png" width="600"/> 
+	 
+---
             
 ## 3. Select CNN models for transfer learning
 
 Three different models reported to have high accuracy on the **ImageNet** dataset were selected for transfer learning. See this [paper](https://arxiv.org/abs/1810.00736) for model performance comparission. 
 
  <img src="figures/image_classification_models.png" width="500"/> 
+ 
+---
             
 ## 4. Create ImageDataGenerators and train the CNN model(s).
 
@@ -115,10 +123,11 @@ Example Single Picture Evaluation:
     * Top 4 Prediction: With  1.5% probability is a picture of Lactarius.
     * Top 5 Prediction: With  1.0% probability is a picture of Lactarius sanguifluus.
 
-Next, I will improve the picture dataset, I include more mushroom species and train EfficientNetB7 (2020), a model containing more trainable parameters (Ongoing...▶).
+Next, I increased the number of mushroom species adn I trained the Xception model again using a **larger picture size (600x600)** (Ongoing...▶).
+
+*Note: I tried training EfficientNetB7(2020) but it took too long to train.*
 
 
+* **4.4 my Xception model version 2 (2016) Model Training - Trainable params: 39,502,029. Picture_size=600x600**
 
-* **4.4 InceptionResNetV2(2016) Model Training - Trainable params: 60,356,494. Picture_size=600x600**
-
-* **4.5 InceptionResNetV2 Performance Evaluation**
+* **4.5 Xception Performance Evaluation**
