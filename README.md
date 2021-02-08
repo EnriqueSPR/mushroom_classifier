@@ -144,3 +144,8 @@ Results:
 
 
 After the model's evaluation it will be interesting to see what mushrooms are missclassified. This information can be critical for the use case of this algorithm, since we want to make sure that poisonous species are not misclassified as edible ones. To reduce taht type of missclassification it would be recommended to increase the amount of pictures for those species.
+
+Another option to improve model accuracy for poisonous mushrooms would be to penalize false negatives for those particular species by increasing the weight for those classes. For this we can use [tf.nn.weighted_cross_entropy_with_logits](https://www.tensorflow.org/api_docs/python/tf/nn/weighted_cross_entropy_with_logits).
+
+* ``pos_weight`` > 1 will **decrease the false negative count**, hence increasing the **recall**. 
+* Conversely setting ``pos_weight`` < 1 decreases the false positive count and increases the **precision**.
