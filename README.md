@@ -123,11 +123,24 @@ Example Single Picture Evaluation:
     * Top 4 Prediction: With  1.5% probability is a picture of Lactarius.
     * Top 5 Prediction: With  1.0% probability is a picture of Lactarius sanguifluus.
 
-Next, I increased the number of mushroom species adn I trained the Xception model again using a **larger picture size (600x600)** (Ongoing...▶).
+Next, I increased the number of mushroom species adn I trained the Xception model again using a **larger picture size (600x600)** (Ongoing...▶). 
 
-*Note: I tried training EfficientNetB7(2020) but it took too long to train.*
+*Note 1: After adding more mushroom species the accuracy of the model is expected to decrease, in particular, due to the large amount of species within the same mushroom Genus such Agaricus (16 species), Amanita (36 species), Boletus (23), Lactarius (38), Russula (40) since mushrooms with the same genus share many morphological features*
+
+*Note 2: I tried training EfficientNetB7(2020) but it took too long to train.*
 
 
 * **4.4 my Xception model version 2 (2016) Model Training - Trainable params: 39,502,029. Picture_size=600x600**
 
+The hyperparameter batch_size is important as it largely affects the generalization and convergence speed of the model. Large batch sizes may cause bad generalization, but will converge faster ([See this blog for more info](https://towardsdatascience.com/how-to-break-gpu-memory-boundaries-even-with-large-batch-sizes-7a9c27a400ce)). Here, a batch_size of 12 was chosen, partly due to GPU memory limitations.
+
+Regarding the optimizer, I employed Adam first and switched to sgd at the end of the training try squeezing the last bit of accuracy. [Read more this blog](https://mlfromscratch.com/optimizers-explained/#/) to understand better how to pick the right optimizer. 
+
+Results:
+
+<img src="figures/Xception_Training.png" width="600"/> 
+
 * **4.5 Xception Performance Evaluation**
+
+
+After the model's evaluation it will be interesting to see what mushrooms are missclassified. This information can be critical for the use case of this algorithm, since we want to make sure that poisonous species are not misclassified as edible ones. To reduce taht type of missclassification it would be recommended to increase the amount of pictures for those species.
