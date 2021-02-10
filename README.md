@@ -98,7 +98,7 @@ I selected Xception for transfer learning, a model with reduced complexity which
   <img src="figures/data_augmentation.png" width="400"/> 
 
 
-* **4.2 Xception(2016) Model Training - Trainable params: 27,946,080. Picture size=299x299**
+* **4.2 Xception(2016) Model Training - Trainable params: 27,946,080. Picture size=299x299 (Trained on pictures of 823 mushroom species total)**
 
 <img src="figures/Xception_Training.png" width="600"/> 
 
@@ -135,13 +135,14 @@ Next, I increased the number of mushroom species adn I trained the Xception mode
 *Note 2: I tried training EfficientNetB7(2020) but it took too long to train.*
 
 
-* **4.4 my Xception model version 2 (2016) Model Training - Trainable params: 39,502,029. Picture_size=600x600**
+* **4.4 my Xception model version 2 (2016) Model Training - Trainable params: 39,502,029. Picture_size=600x600 (Trained on pictures of 933 mushroom species total)**
 
 The hyperparameter batch_size is important as it largely affects the generalization and convergence speed of the model. Large batch sizes may cause bad generalization, but will converge faster ([See this blog for more info](https://towardsdatascience.com/how-to-break-gpu-memory-boundaries-even-with-large-batch-sizes-7a9c27a400ce)). Here, a batch_size of 12 was chosen, partly due to GPU memory limitations.
 
 Regarding the optimizer, I employed Adam first and switched to sgd at the end of the training try squeezing the last bit of accuracy. [Read more this blog](https://mlfromscratch.com/optimizers-explained/#/) to understand better how to pick the right optimizer. 
 
-Results:
+
+**Training**:
 
 <img src="figures/Xception_Training.png" width="600"/> 
 
@@ -174,7 +175,7 @@ Results:
     
 
 
-After the model's evaluation it will be interesting to see what mushrooms are missclassified. This information can be critical for the use case of this algorithm, since we want to make sure that poisonous species are not misclassified as edible ones. To reduce taht type of missclassification it would be recommended to increase the amount of pictures for those species.
+After the model's evaluation it will be interesting to see what mushrooms are missclassified. This information can be critical for the use case of this algorithm, since we want to make sure that poisonous species are not misclassified as edible ones. To reduce that type of missclassification it would be recommended to increase the amount of pictures for those species.
 
 Another option to improve model accuracy for poisonous mushrooms would be to penalize false negatives for those particular species by increasing the weight for those classes. For this we can use [tf.nn.weighted_cross_entropy_with_logits](https://www.tensorflow.org/api_docs/python/tf/nn/weighted_cross_entropy_with_logits).
 
