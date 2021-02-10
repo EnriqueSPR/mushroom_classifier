@@ -148,6 +148,32 @@ Results:
 * **4.5 Xception Performance Evaluation**
 
 
+<img src="figures/galerina_clavata_challenge.jpeg" width="200"/>  
+
+	* Top 1 Prediction: With 71.8% probability is a picture of Galerina clavata.
+	* Top 2 Prediction: With  8.2% probability is a picture of Hygrocybe laeta.
+	* Top 3 Prediction: With  3.9% probability is a picture of Entoloma incanum.
+	* Top 4 Prediction: With  3.1% probability is a picture of Rickenella  fibula.
+	* Top 5 Prediction: With  2.6% probability is a picture of Hygrocybe psittacina.
+	
+<img src="figures/hygrocybe_coccinea.jpeg" width="200"/> 
+
+	* Top 1 Prediction: With 37.3% probability is a picture of Hygrocybe coccinea.
+	* Top 2 Prediction: With 22.3% probability is a picture of Hygrocybe punicea.
+	* Top 3 Prediction: With  9.2% probability is a picture of Hygrocybe miniata.
+	* Top 4 Prediction: With  5.4% probability is a picture of Hygrocybe laeta.
+	* Top 5 Prediction: With  4.1% probability is a picture of Hygrocybe conica.
+
+<img src="figures/Coprinopsis_cineirea_cropped.jpeg" width="200"/> 
+
+	* Top 1 Prediction: With 25.9% probability is a picture of Coprinopsis cinerea.
+	* Top 2 Prediction: With 22.1% probability is a picture of Coprinus lagopus.
+	* Top 3 Prediction: With 11.1% probability is a picture of Coprinus niveus.
+	* Top 4 Prediction: With 10.8% probability is a picture of Coprinopsis ephemeroides.
+	* Top 5 Prediction: With  6.8% probability is a picture of Coprinopsis radiata.
+    
+
+
 After the model's evaluation it will be interesting to see what mushrooms are missclassified. This information can be critical for the use case of this algorithm, since we want to make sure that poisonous species are not misclassified as edible ones. To reduce taht type of missclassification it would be recommended to increase the amount of pictures for those species.
 
 Another option to improve model accuracy for poisonous mushrooms would be to penalize false negatives for those particular species by increasing the weight for those classes. For this we can use [tf.nn.weighted_cross_entropy_with_logits](https://www.tensorflow.org/api_docs/python/tf/nn/weighted_cross_entropy_with_logits).
