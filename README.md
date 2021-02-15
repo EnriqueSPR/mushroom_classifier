@@ -144,7 +144,7 @@ Regarding the optimizer, I employed Adam first and switched to sgd at the end of
 
 **Training**:
 
-<img src="figures/Xception_Training_version2.png" width="600"/> 
+<img src="figures/Xception_Training_version_2_.png" width="600"/> 
 
 * **4.5 Xception Performance Evaluation**
 
