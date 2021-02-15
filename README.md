@@ -130,7 +130,7 @@ Example Single Picture Evaluation:
 
 Next, I increased the number of mushroom species adn I trained the Xception model again using a **larger picture size (600x600)** (Ongoing...▶). 
 
-*Note 1: After adding more mushroom species the accuracy of the model is expected to decrease, in particular, due to the large amount of species within the same mushroom Genus such Agaricus (16 species), Amanita (36 species), Boletus (23), Lactarius (38), Russula (40) since mushrooms with the same genus share many morphological features*
+*Note 1: After adding more mushroom species the accuracy of the model is expected to decrease, in particular, due to the large amount of species within the same mushroom Genus such Agaricus (16 species), Amanita (36 species), Boletus (23), Lactarius (38), Russula (40) and Cortinarius (48) since mushrooms with the same genus share many morphological features*
 
 *Note 2: I tried training EfficientNetB7(2020) but it took too long to train.*
 
