@@ -16,7 +16,7 @@ In this notebook, I will train an algorithm that can aid us in classifying mushr
 
 **Python Version**: 3.7
 
-**Packages used**: pandas, numpy, csv, bing_image_downloader, simple_image_download, pathlib, sys, re, datetime, os, time, glob, shutil, sklearn, matplotlib, seaborn, splitfolders, keras (2.3.1) and tensorflow (2.4.0).
+**Packages used**: pandas, numpy, csv, bing_image_downloader, simple_image_download, pathlib, sys, re, datetime, os, time, glob, shutil, sklearn, matplotlib, seaborn, splitfolders, keras (2.4.0) and tensorflow (2.3.1).
 
 ---
 
@@ -191,5 +191,5 @@ This information can be critical for the use case of this algorithm, since we wa
 
 Another option to improve model accuracy for poisonous mushrooms would be to penalize false negatives for those particular species by increasing the weight for those classes. For this we can use [tf.nn.weighted_cross_entropy_with_logits](https://www.tensorflow.org/api_docs/python/tf/nn/weighted_cross_entropy_with_logits).
 
-* ``pos_weight`` > 1 will **decrease the false negative count**, hence increasing the **recall**. (This is what we want for poisonous species).
-* Conversely setting ``pos_weight`` < 1 **decreases the false positive count** and increases the **precision**.
+	* ``pos_weight`` > 1 will **decrease the false negative count**, hence increasing the **recall**. (This is what we want for poisonous species).
+	* Conversely setting ``pos_weight`` < 1 **decreases the false positive count** and increases the **precision**.
