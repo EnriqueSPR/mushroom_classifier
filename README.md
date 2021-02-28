@@ -135,7 +135,7 @@ Next, I increased the number of mushroom species adn I trained the Xception mode
 *Note 2: I tried training EfficientNetB7(2020) but it took too long to train.*
 
 
-* **4.4 my Xception model version 2 (Trainable params: 39,502,029) and Inception Rresnet V2 (Trainable params: 70,857,725) Model Training. Picture_size=600x600 (Trained on pictures of 933 mushroom species total)**
+* **4.4 Model Training. Xception model version 2 (Trainable params: 39,502,029) and Inception Rresnet V2 (Trainable params: 70,857,725). Picture_size=600x600 (Trained on pictures of 933 mushroom species total)**
 
 The hyperparameter batch_size is important as it largely affects the generalization and convergence speed of the model. Large batch sizes may cause bad generalization, but will converge faster ([See this blog for more info](https://towardsdatascience.com/how-to-break-gpu-memory-boundaries-even-with-large-batch-sizes-7a9c27a400ce)). Here, a batch_size of 12 was chosen, partly due to GPU memory limitations.
 
