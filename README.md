@@ -78,7 +78,7 @@ In this notebook, I will train an algorithm that can aid us in classifying mushr
             
 ## 3. Select CNN models for transfer learning
 
-I selected Xception for transfer learning, a model with reduced complexity which gives good results on the **ImageNet** dataset. See this [paper](https://arxiv.org/abs/1810.00736) for model performance comparission. 
+I selected Xception and  inception resnet v2 for transfer learning, models with reduced complexity which give good results on the **ImageNet** dataset. See this [paper](https://arxiv.org/abs/1810.00736) for model performance comparission. 
 
  <img src="figures/image_classification_models.png" width="500"/> 
  
@@ -128,14 +128,14 @@ Example Single Picture Evaluation:
     * Top 4 Prediction: With  1.5% probability is a picture of Lactarius.
     * Top 5 Prediction: With  1.0% probability is a picture of Lactarius sanguifluus.
 
-Next, I increased the number of mushroom species adn I trained the Xception model again using a **larger picture size (600x600)** (Ongoing...▶). 
+Next, I increased the number of mushroom species adn I trained the Xception model again using a **larger picture size (600x600)**. 
 
 *Note 1: After adding more mushroom species the accuracy of the model is expected to decrease, in particular, due to the large amount of species within the same mushroom Genus such Agaricus (16 species), Amanita (36 species), Boletus (23), Lactarius (38), Russula (40) and Cortinarius (48) since mushrooms with the same genus share many morphological features*
 
 *Note 2: I tried training EfficientNetB7(2020) but it took too long to train.*
 
 
-* **4.4 my Xception model version 2 (2016) Model Training - Trainable params: 39,502,029. Picture_size=600x600 (Trained on pictures of 933 mushroom species total)**
+* **4.4 my Xception model version 2 (Trainable params: 39,502,029) and Inception Rresnet V2 (Trainable params: 70,857,725) Model Training. Picture_size=600x600 (Trained on pictures of 933 mushroom species total)**
 
 The hyperparameter batch_size is important as it largely affects the generalization and convergence speed of the model. Large batch sizes may cause bad generalization, but will converge faster ([See this blog for more info](https://towardsdatascience.com/how-to-break-gpu-memory-boundaries-even-with-large-batch-sizes-7a9c27a400ce)). Here, a batch_size of 12 was chosen, partly due to GPU memory limitations.
 
@@ -146,9 +146,18 @@ Regarding the optimizer, I employed Adam first and switched to sgd at the end of
 
 <img src="figures/Xception_Training_version2_.png" width="600"/> 
 
-* **4.5 Xception Performance Evaluation**
 
-Final model -> **accuracy: 48.1%**, loss:  2.07
+<img src="figures/InceptionResNetV2.png" width="600"/> 
+
+* **4.5 Model Performance Evaluation**
+
+Final Xception model -> **accuracy: 48.1%, loss:  2.07**
+
+Final Inception ResNet V2 model -> **accuracy: 47.4%, loss:  2.08**
+
+Interestingly, Inception Resnet V2 model performs slightly worse than Xception even though it used 70% more parameters.
+
+* **4.6 Xception Evaluation of single pictures**
 
 <img src="figures/galerina_clavata_challenge.jpeg" width="200"/>  
 
@@ -174,8 +183,6 @@ Final model -> **accuracy: 48.1%**, loss:  2.07
 	* Top 4 Prediction: With 10.8% probability is a picture of Coprinopsis ephemeroides.
 	* Top 5 Prediction: With  6.8% probability is a picture of Coprinopsis radiata.
     
-
-
 Next I checked what mushrooms are missclassified: 
 
 <img src="figures/missclassified_mush.png" width="400"/>
