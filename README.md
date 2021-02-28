@@ -148,7 +148,7 @@ Regarding the optimizer, I employed Adam first and switched to sgd at the end of
 
 * **4.5 Xception Performance Evaluation**
 
-Final model -> **accuracy: 48.0%**, loss:  2.07
+Final model -> **accuracy: 48.1%**, loss:  2.07
 
 <img src="figures/galerina_clavata_challenge.jpeg" width="200"/>  
 
