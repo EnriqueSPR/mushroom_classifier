@@ -135,7 +135,7 @@ Next, I increased the number of mushroom species adn I trained the Xception mode
 *Note 2: I tried training EfficientNetB7(2020) but it took too long to train.*
 
 
-* **4.4 Model Training. Xception model version 2 (Trainable params: 39,502,029) and Inception Rresnet V2 (Trainable params: 70,857,725). Picture_size=600x600 (Trained on pictures of 933 mushroom species total)**
+* **4.4 Model Training. Xception model version 2 (Trainable params: 39,502,029) and Inception Resnet V2 (Trainable params: 70,857,725). Picture_size=600x600 (Trained on pictures of 933 mushroom species total)**
 
 The hyperparameter batch_size is important as it largely affects the generalization and convergence speed of the model. Large batch sizes may cause bad generalization, but will converge faster ([See this blog for more info](https://towardsdatascience.com/how-to-break-gpu-memory-boundaries-even-with-large-batch-sizes-7a9c27a400ce)). Here, a batch_size of 12 was chosen, partly due to GPU memory limitations.
 
@@ -153,9 +153,9 @@ Regarding the optimizer, I employed Adam first and switched to sgd at the end of
 
 Final Xception model -> **accuracy: 48.1%, loss:  2.07**
 
-Final Inception ResNet V2 model -> **accuracy: 47.4%, loss:  2.08**
+Final Inception ResNet V2 model -> **accuracy: 49.3%, loss:  2.01**
 
-Interestingly, Inception Resnet V2 model performs slightly worse than Xception even though it used 70% more parameters.
+Inception Resnet V2 model performs only performs slightly better than xception despite having 70% more parameters.
 
 * **4.6 Xception Evaluation of single pictures**
 
