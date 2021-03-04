@@ -114,7 +114,7 @@ Example Single Picture Evaluation:
 
 <img src="figures/nomo.jpeg" width="200"/>  
 
-    * Top 1 Prediction: With 48.6% probability is a picture of Amanita muscaria.
+    * Top 1 Prediction: With 48.6% probability is a picture of Amanita muscaria. ✔
     * Top 2 Prediction: With 18.7% probability is a picture of Amanita hongoi.
     * Top 3 Prediction: With 18.1% probability is a picture of Amanita heterochroma.
     * Top 4 Prediction: With  6.5% probability is a picture of Amanita parcivolvata.
@@ -122,7 +122,7 @@ Example Single Picture Evaluation:
 
 <img src="figures/niscalos.jpeg" width="200"/> 
 
-    * Top 1 Prediction: With 89.2% probability is a picture of Lactarius deliciosus.
+    * Top 1 Prediction: With 89.2% probability is a picture of Lactarius deliciosus. ✔
     * Top 2 Prediction: With  5.6% probability is a picture of Lactarius salmonicolor.
     * Top 3 Prediction: With  2.6% probability is a picture of Lactarius semisanguifluus.
     * Top 4 Prediction: With  1.5% probability is a picture of Lactarius.
@@ -161,7 +161,7 @@ Inception Resnet V2 model performs only performs slightly better than xception d
 
 <img src="figures/galerina_clavata_challenge.jpeg" width="200"/>  
 
-	* Top 1 Prediction: With 71.8% probability is a picture of Galerina clavata.
+	* Top 1 Prediction: With 71.8% probability is a picture of Galerina clavata. ✔
 	* Top 2 Prediction: With  8.2% probability is a picture of Hygrocybe laeta.
 	* Top 3 Prediction: With  3.9% probability is a picture of Entoloma incanum.
 	* Top 4 Prediction: With  3.1% probability is a picture of Rickenella  fibula.
@@ -169,7 +169,7 @@ Inception Resnet V2 model performs only performs slightly better than xception d
 	
 <img src="figures/hygrocybe_coccinea.jpeg" width="200"/> 
 
-	* Top 1 Prediction: With 37.3% probability is a picture of Hygrocybe coccinea.
+	* Top 1 Prediction: With 37.3% probability is a picture of Hygrocybe coccinea. ✔
 	* Top 2 Prediction: With 22.3% probability is a picture of Hygrocybe punicea.
 	* Top 3 Prediction: With  9.2% probability is a picture of Hygrocybe miniata.
 	* Top 4 Prediction: With  5.4% probability is a picture of Hygrocybe laeta.
@@ -177,7 +177,7 @@ Inception Resnet V2 model performs only performs slightly better than xception d
 
 <img src="figures/Coprinopsis_cineirea_cropped.jpeg" width="200"/> 
 
-	* Top 1 Prediction: With 25.9% probability is a picture of Coprinopsis cinerea.
+	* Top 1 Prediction: With 25.9% probability is a picture of Coprinopsis cinerea. ✔
 	* Top 2 Prediction: With 22.1% probability is a picture of Coprinus lagopus.
 	* Top 3 Prediction: With 11.1% probability is a picture of Coprinus niveus.
 	* Top 4 Prediction: With 10.8% probability is a picture of Coprinopsis ephemeroides.
