@@ -194,4 +194,14 @@ Another option to improve model accuracy for poisonous mushrooms would be to pen
 >  * ``pos_weight`` > 1 will **decrease the false negative count**, hence increasing the **recall**. (This is what we want for poisonous species).
 >  * Conversely setting ``pos_weight`` < 1 **decreases the false positive count** and increases the **precision**.
 
-* **5 Productionalize the Model with streamlit and heroku** (Ongoing ➡)
+* **5 Productionalize the Model with streamlit and heroku** 
+
+I built locally an app with the [Streamlit](https://streamlit.io/) package and deployed it using the [Heroku](https://dashboard.heroku.com/apps) framework.
+
+See below couple of screenshots of the app:
+
+<img src="figures/streamlit_1.png" width="400"/>
+
+<img src="figures/streamlit_2.png" width="400"/>
+ 
+
