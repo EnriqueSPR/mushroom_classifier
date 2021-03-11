@@ -200,8 +200,8 @@ I built locally an app with the [Streamlit](https://streamlit.io/) package and d
 
 See below couple of screenshots of the app:
 
-<img src="figures/streamlit_1.png" width="400"/>
+<img src="figures/streamlit_1.png" width="600"/>
 
-<img src="figures/streamlit_2.png" width="400"/>
+<img src="figures/streamlit_2.png" width="600"/>
  
 
