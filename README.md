@@ -1,6 +1,7 @@
 # Mushroom Recognition Classifier using CNNs
 
-The goal in this project is to train a CNN to classify pictures of mushrooms from around 1000 different popular mushroom species.
+### Goal:
+The aim of this project is to create a tool able to classify pictures of mushrooms from around 1000 different popular mushroom species.
 
 ## Introduction:
 
