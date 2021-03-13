@@ -89,7 +89,7 @@ I selected Xception and  inception resnet v2 for transfer learning, models with 
  
    Inception Resnet V2 Architecture used:
   
- <img src="figures/inception_resnet_v2_architecture.png" width="500"/> v
+ <img src="figures/inception_resnet_v2_architecture.png" width="500"/> 
  
  
 ---
