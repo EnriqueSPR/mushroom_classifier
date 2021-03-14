@@ -192,12 +192,16 @@ Next I checked what mushrooms are missclassified:
 
 <img src="figures/missclassified_mush.png" width="400"/>
 
-This information can be critical for the use case of this algorithm, since we want to make sure that poisonous species are not misclassified as edible ones. To reduce that type of missclassification it would be recommended to increase the amount of pictures for those species.
+This information can be critical for the use case of this algorithm, since we want to make sure that poisonous species are not misclassified as edible ones. 
 
-Another option to improve model accuracy for poisonous mushrooms would be to penalize false negatives for those particular species by increasing the weight for those classes. For this we can use [tf.nn.weighted_cross_entropy_with_logits](https://www.tensorflow.org/api_docs/python/tf/nn/weighted_cross_entropy_with_logits).
+* **4.7 Ideas for improving the model performance**:
 
->  * ``pos_weight`` > 1 will **decrease the false negative count**, hence increasing the **recall**. (This is what we want for poisonous species).
->  * Conversely setting ``pos_weight`` < 1 **decreases the false positive count** and increases the **precision**.
+	* To reduce the missclassification of poisonous species it would be recommended to increase the amount of pictures for those species.
+
+	* Another option to improve model accuracy for poisonous mushrooms would be to penalize false negatives for those particular species by increasing the weight for those classes. For this we can use [tf.nn.weighted_cross_entropy_with_logits](https://www.tensorflow.org/api_docs/python/tf/nn/weighted_cross_entropy_with_logits).
+
+		>  * ``pos_weight`` > 1 will **decrease the false negative count**, hence increasing the **recall**. (This is what we want for poisonous species).
+		>  * Conversely setting ``pos_weight`` < 1 **decreases the false positive count** and increases the **precision**.
 
 * **5 Productionalize the Model with streamlit and heroku** 
 
