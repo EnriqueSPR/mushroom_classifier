@@ -156,9 +156,13 @@ Regarding the optimizer, I employed Adam first and switched to sgd at the end of
 
 * **4.5 Model Performance Evaluation**
 
-Final Xception model -> **accuracy: 48.1%, loss:  2.07**, **accuracy top 5: 79%** (probability that the correct mushroom is among the top 5 results)
+Final Xception model -> 
+> * **accuracy: 48.1%, loss:  2.07** 
+> * **accuracy top 5: 79%** (probability that the correct mushroom is among the top 5 results)
 
-Final Inception ResNet V2 model -> **accuracy: 49.3%, loss:  2.01**, , **accuracy top 5: 81%** (probability that the correct mushroom is among the top 5 results)
+Final Inception ResNet V2 model
+> * **accuracy: 49.3%, loss:  2.01**
+> * **accuracy top 5: 81%** (probability that the correct mushroom is among the top 5 results)
 
 Inception Resnet V2 model performs only performs slightly better than xception despite having 70% more parameters.
 
