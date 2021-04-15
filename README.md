@@ -198,7 +198,7 @@ Next I checked what mushrooms are missclassified:
 
 This information can be critical for the use case of this algorithm, since we want to make sure that poisonous species are not misclassified as edible ones. 
 
-* **4.7 Ideas for improving the model performance**:
+* **4.7 Ideas to improve model performance**:
 
 	* To reduce the missclassification of poisonous species it would be recommended to increase the amount of pictures for those species.
 
