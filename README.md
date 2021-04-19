@@ -207,7 +207,8 @@ This information can be critical for the use case of this algorithm, since we wa
 		>  * ``pos_weight`` > 1 will **decrease the false negative count**, hence increasing the **recall**. (This is what we want for poisonous species).
 		>  * Conversely setting ``pos_weight`` < 1 **decreases the false positive count** and increases the **precision**.
 		
-	* Finally, due to the fasting evolving nature of the computer vision field, it is always recommended to follow the lastest trends: For instance, just recently (March-April 2021) two papers have been published reporting **substantial improvements** of **[Resnets](https://arxiv.org/pdf/2103.07579.pdf)** and **[EfficientNetV2](https://arxiv.org/pdf/2104.00298.pdf)**, in both, **training speed and performance** in the ImageNet dataset.
+	* Finally, due to the fasting evolving nature of the computer vision field, it is always recommended to follow the lastest trends:
+For instance, just recently (March-April 2021), two papers have been published reporting **substantial improvements** of **[Resnets](https://arxiv.org/pdf/2103.07579.pdf)** and **[EfficientNetV2](https://arxiv.org/pdf/2104.00298.pdf)**, in both, **training speed and performance** in the ImageNet dataset.
 	
 ---
 
